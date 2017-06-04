@@ -1,0 +1,16 @@
+{
+	"name": "monobind",
+	"authors": [
+		"Adam Wilson"
+	],
+	"dependencies": {
+		"derelict-mono": "~>1.1.0"
+	},
+	"subConfigurations": {
+		"derelict-mono": "derelict-mono-static"
+	},
+	"libs":["mono-2.0"],
+	"description": "D binding generator for Mono libraries.",
+	"copyright": "Copyright © 2017, Adam Wilson",
+	"license": "BSL-1.0"
+}
